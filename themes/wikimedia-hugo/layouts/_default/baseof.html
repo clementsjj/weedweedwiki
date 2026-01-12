@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "header.html" . -}}
+
+  <div class="site-container">
+    {{- block "main" . }}{{- end }}
+  </div>
+
+  {{- partial "footer.html" . -}}
+
+  <script>
+    // Mobile TOC toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const tocToggle = document.querySelector('.toc-toggle');
+      const tocSidebar = document.querySelector('.toc-sidebar');
+
+      if (tocToggle && tocSidebar) {
+        tocToggle.addEventListener('click', function() {
+          tocSidebar.classList.toggle('toc-open');
+          tocToggle.classList.toggle('toc-active');
+        });
+      }
+    });
+  </script>
+</body>
+</html>

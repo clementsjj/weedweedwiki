@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="list-main">
+  <header class="list-header">
+    <h1 class="list-title">Categories</h1>
+    <p class="list-description">Browse articles by category</p>
+  </header>
+
+  {{ if .Pages }}
+  <ul class="category-list">
+    {{ range .Pages }}
+    <li class="category-list-item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="category-count">({{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }})</span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p>No categories found.</p>
+  {{ end }}
+</main>
+{{ end }}

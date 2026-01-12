@@ -1,0 +1,18 @@
+<div class="infobox">
+  {{ with .Get "title" }}
+  <div class="infobox-title">{{ . }}</div>
+  {{ end }}
+
+  {{ with .Get "image" }}
+  <div class="infobox-image">
+    <img src="{{ . }}" alt="{{ $.Get "title" | default "Infobox image" }}">
+    {{ with $.Get "caption" }}
+    <div class="infobox-caption">{{ . }}</div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="infobox-content">
+    {{ trim .Inner "\n\r\t " | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</div>

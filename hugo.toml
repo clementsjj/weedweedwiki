@@ -1,0 +1,31 @@
+baseURL = 'https://weedweed.wiki/'
+languageCode = 'en-us'
+title = 'WeedWeed.Wiki'
+theme = 'wikimedia-hugo'
+refLinksErrorLevel = 'WARNING'
+refLinksNotFoundURL = '/articles/missing/'
+
+[params]
+  tagline = 'The plant encyclopedia for everyone'
+  description = 'A wiki-style knowledge base'
+  searchPlaceholder = 'Coming Soon'
+  subtitle ="The Plant Encyclopedia"
+  githubRepo = 'https://github.com/clementsjj/weedweedwiki'
+  githubBranch = 'main'
+  enableGitInfo = false # This is to pull accurate last-modified date from Git. It is experimental; If false, date will come from frontmatter. 
+  giscusRepoId = 'R_kgDOQ3W_ig'           # from giscus.app
+  giscusCategoryId = 'DIC_kwDOQ3W_is4C02Dn'     # from giscus.app
+  giscusCategory = 'Discussions'       # or whatever category you created
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+  ordered = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menus.main]]
+  name = 'Categories'
+  url = '/categories/'
+  weight = 10
