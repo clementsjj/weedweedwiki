@@ -2,32 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/articles/</loc>
+    <loc>https://weedweed.wiki/articles/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weedweed.wiki/categories/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weedweed.wiki/articles/limonene/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weedweed.wiki/categories/terepenes/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weedweed.wiki/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weedweed.wiki/categories/cannabaceae/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/categories/cannabaceae/</loc>
+    <loc>https://weedweed.wiki/articles/cannabis/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/articles/cannabis-sativa/</loc>
+    <loc>https://weedweed.wiki/articles/cannabis-sativa/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/categories/</loc>
+    <loc>https://weedweed.wiki/categories/plants/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/categories/plants/</loc>
-    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+    <loc>https://weedweed.wiki/talk/cannabis-sativa/</loc>
   </url><url>
-    <loc>http://localhost:1314/</loc>
-    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+    <loc>https://weedweed.wiki/articles/missing/</loc>
   </url><url>
-    <loc>http://localhost:1314/talk/cannabis-sativa/</loc>
+    <loc>https://weedweed.wiki/tags/</loc>
   </url><url>
-    <loc>http://localhost:1314/articles/missing/</loc>
+    <loc>https://weedweed.wiki/talk/</loc>
   </url><url>
-    <loc>http://localhost:1314/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1314/talk/</loc>
-  </url><url>
-    <loc>http://localhost:1314/articles/terepens/</loc>
+    <loc>https://weedweed.wiki/articles/terepens/</loc>
   </url>
 </urlset>

@@ -5,6 +5,9 @@ draft: false
 categories:
   - Plants
   - Cannabaceae
+  - terepenes
+aliases:
+  - /flavor/
 ---
 
 
@@ -29,7 +32,7 @@ categories:
 Terepenes are organic compounds naturally produced by plants which create unique smells and flavors. Their natural use is to attract pollinators and deter pests. In the human world, they create unique profiles of cannabis flower which changes how it tastes and feels during consumption. 
 
 ## In Cannabis
-Limonene is a prominent terpene in many cannabis strains, contributing to their diverse aromas and effects. It is not psychoactive on its own but is believed to contribute to the "entourage effect," where it works synergistically with cannabinoids like THC and CBD to enhance their overall therapeutic benefits and can help buffer against potential THC-induced anxiety. Strains high in limonene often have uplifting, energizing, and mood-boosting effects
+[Limonene](limonene) is a prominent terpene in many [cannabis](cannabis) strains, contributing to their diverse aromas and effects. It is not psychoactive on its own but is believed to contribute to the "entourage effect," where it works synergistically with cannabinoids like [THC](thc) and [CBD](cbd) to enhance their overall therapeutic benefits and can help buffer against potential THC-induced anxiety. Strains high in limonene often have uplifting, energizing, and mood-boosting effects
 
 | terepine           | description                |
 | ------------------ | -------------------------- |

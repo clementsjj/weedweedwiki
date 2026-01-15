@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="article-layout">
+  <main class="article-main">
+    <article class="article">
+      <header class="article-header">
+        <h1 class="article-title" id="page-title">Page Not Yet Created</h1>
+      </header>
+
+      <div class="article-content">
+        <p>The page <strong id="requested-page"></strong> doesn't exist yet.</p>
+
+        <p><a id="create-page-link" href="#">Create this page on GitHub</a></p>
+        <br>
+        <p><a href="/">Return to home</a></p>
+        {{ with .Site.Params.githubRepo }}
+
+        <script>
+          (function() {
+            const path = window.location.pathname;
+            // Extract parts: /articles/somepage/ -> ["articles", "somepage"]
+            const parts = path.split('/').filter(p => p);
+
+            if (parts.length >= 1) {
+              const filename = parts[parts.length - 1] + '.md';
+              const directory = 'content/' + parts.slice(0, -1).join('/');
+
+              // Create title from slug
+              const title = parts[parts.length - 1]
+                .replace(/-/g, ' ')
+                .replace(/\b\w/g, c => c.toUpperCase());
+
+              // Display the requested page name
+              document.getElementById('page-title').textContent = title;
+              document.getElementById('requested-page').textContent = title;
+
+              // Pre-fill frontmatter
+              const frontmatter = `---\ntitle: "${title}"\ndate: ${new Date().toISOString().split('T')[0]}\ndraft: false\n---\n\n`;
+
+              const githubUrl = '{{ . }}/new/{{ $.Site.Params.githubBranch | default "main" }}/'
+                + directory
+                + '?filename=' + encodeURIComponent(filename)
+                + '&value=' + encodeURIComponent(frontmatter);
+
+              document.getElementById('create-page-link').href = githubUrl;
+            }
+          })();
+        </script>
+        {{ end }}
+      </div>
+    </article>
+  </main>
+</div>
+{{ end }}

@@ -52,8 +52,10 @@ a {
   text-decoration: none;
 }
 
-a.missing {
-  color: #f00;
+a.missing,
+a.redlink,
+a.redlink:visited {
+  color: #ba0000;
 }
 
 a:visited {
