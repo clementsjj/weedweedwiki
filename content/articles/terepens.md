@@ -11,11 +11,11 @@ aliases:
 ---
 
 
-{{% infobox
+{{< infobox
     title="Terepenes"
     image="https://cdn.shopify.com/s/files/1/0613/6699/3117/files/74_480x480.webp?v=1660045718"
     caption="The flavor profile"
-%}}
+>}}
 
 - Myrcene
 -Limonene
@@ -24,7 +24,7 @@ aliases:
 - Linalool
 - Humulene
 
-{{% /infobox %}}
+{{< /infobox >}}
 
 
 # Overview

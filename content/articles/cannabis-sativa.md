@@ -1,11 +1,14 @@
 ---
-title: Cannabis sativa
+title: Cannabis Sativa
 description: An annual herbaceous flowering plant indigenous to Eastern Asia
 draft: false
 date: 2026-01-11
 categories:
   - Plants
   - Cannabaceae
+related:
+  - Cannabis Indica
+  - Cannabis Ruderalis
 ---
 
 {{< infobox
@@ -30,6 +33,9 @@ categories:
 ## Etymology
 
 The name *Cannabis* is derived from the Greek κάνναβις (kánnabis), which was originally Scythian or Thracian. The word *sativa* means "cultivated" in Latin.
+
+## Cousins
+[Cannabis Indica](cannabis-indica) and [Cannabis Ruderalis](cannabis-ruderalis) are close relatives to Sativa. 
 
 ## Description
 
@@ -62,8 +68,3 @@ Hemp, a variety of Cannabis sativa, is grown for industrial uses including:
 
 Cannabis has been used medicinally for thousands of years. Modern research has identified various {{% link "cannabinoids" %}} with potential therapeutic applications.
 
-## See Also
-
-- Cannabis indica
-- Hemp
-- Cannabinoids

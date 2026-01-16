@@ -430,8 +430,26 @@ tr:nth-child(even) {
   margin-top: 0;
 }
 
-.article-footer {
+.article-related {
   margin-top: 2em;
+}
+
+.article-related h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.article-related ul {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+.article-related li {
+  margin: 0.3em 0;
+}
+
+.article-footer {
+  margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid var(--color-border);
 }
@@ -651,11 +669,57 @@ tr:nth-child(even) {
 }
 
 /* ============================================
+   404 Error Page
+   ============================================ */
+.error-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2em 20px;
+}
+
+.error-image {
+  float: left;
+  width: var(--toc-width);
+  margin: 0 1.5em 1em 0;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.error-image img {
+  width: 100%;
+  height: auto;
+}
+
+.error-content h1 {
+  font-family: var(--font-title);
+  font-size: 2em;
+  margin: 0 0 0.5em;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.2em;
+}
+
+.error-content p {
+  margin: 0.75em 0;
+}
+
+/* ============================================
    Mobile Responsive
    ============================================ */
 @media (max-width: 900px) {
   .article-layout {
     flex-direction: column;
+  }
+
+  .error-image {
+    float: none;
+    width: 150px;
+    margin: 0 auto 1.5em;
+  }
+
+  .error-content {
+    text-align: center;
   }
 
   .header-search {

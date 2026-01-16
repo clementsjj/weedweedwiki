@@ -41,6 +41,20 @@
         {{ .Content }}
       </div>
 
+      {{ with .Params.related }}
+      <div class="article-related">
+        <h2>Related</h2>
+        <ul>
+          {{ range . }}
+            {{ $page := $.Site.GetPage (printf "/articles/%s" .) }}
+            {{ with $page }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
       {{ if .Params.categories }}
       <footer class="article-footer">
         <div class="article-categories">

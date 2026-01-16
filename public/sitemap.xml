@@ -2,41 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://weedweed.wiki/articles/</loc>
+    <loc>http://localhost:1314/articles/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/categories/</loc>
+    <loc>http://localhost:1314/categories/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/articles/limonene/</loc>
+    <loc>http://localhost:1314/articles/limonene/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/categories/terepenes/</loc>
+    <loc>http://localhost:1314/categories/terepenes/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/</loc>
+    <loc>http://localhost:1314/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/categories/cannabaceae/</loc>
+    <loc>http://localhost:1314/about/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/articles/cannabis/</loc>
+    <loc>http://localhost:1314/categories/about/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/articles/cannabis-sativa/</loc>
+    <loc>http://localhost:1314/articles/autoflower/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/categories/plants/</loc>
+    <loc>http://localhost:1314/categories/cannabaceae/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/talk/cannabis-sativa/</loc>
+    <loc>http://localhost:1314/articles/cannabis/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/articles/missing/</loc>
+    <loc>http://localhost:1314/articles/cannabis-indica/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/tags/</loc>
+    <loc>http://localhost:1314/articles/cannabis-ruderalis/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/talk/</loc>
+    <loc>http://localhost:1314/articles/cannabis-sativa/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://weedweed.wiki/articles/terepens/</loc>
+    <loc>http://localhost:1314/articles/photoperiod/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/categories/plants/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/talk/cannabis-sativa/</loc>
+  </url><url>
+    <loc>http://localhost:1314/articles/missing/</loc>
+  </url><url>
+    <loc>http://localhost:1314/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1314/talk/</loc>
+  </url><url>
+    <loc>http://localhost:1314/articles/terepens/</loc>
   </url>
 </urlset>

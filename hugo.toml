@@ -16,6 +16,7 @@ refLinksNotFoundURL = '/articles/missing/'
   giscusRepoId = 'R_kgDOQ3W_ig'           # from giscus.app
   giscusCategoryId = 'DIC_kwDOQ3W_is4C02Dn'     # from giscus.app
   giscusCategory = 'Discussions'       # or whatever category you created
+  notFoundImage = 'images/404.jpg'
 
 [markup.tableOfContents]
   startLevel = 2
