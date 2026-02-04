@@ -6,14 +6,14 @@
     <description>Recent content in About on WeedWeed.Wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1314/categories/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1314/articles/about/</link>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/articles/about/</guid>
-      <description>&lt;h2 id=&#34;about-the-wiki-style&#34;&gt;About the Wiki Style&lt;/h2&gt;&#xA;&lt;p&gt;To be a good wiki, pages should be&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;editable by the people&lt;/li&gt;&#xA;&lt;li&gt;navigate fluidly between links&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;&#xA;&lt;p&gt;On each page, you will see an &amp;ldquo;Edit&amp;rdquo; link near the top right.&#xA;If you click on the link, it will take you to a Github page where changes can be made to the page.&lt;/p&gt;&#xA;&lt;p&gt;Since the contents of this page are stored and hosted on Github, you must have an account with Github to make changes to the content.&#xA;When changes are made, they are made in a branch called &lt;code&gt;Edit&lt;/code&gt;. Submit a pull request merging your changes to &lt;code&gt;Edit&lt;/code&gt; into &lt;code&gt;Main&lt;/code&gt;.&lt;/p&gt;</description>
+      <title>About Hugo</title>
+      <link>http://localhost:1314/about-hugo/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/about-hugo/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

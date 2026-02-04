@@ -20,7 +20,11 @@
           {{ end }}
           {{ if not $.Date.IsZero }}
           <span class="toolbar-separator">·</span>
-          <span class="toolbar-lastmod">Last edited: {{ $.Lastmod.Format "2 Jan 2006" }}</span>
+          <span class="toolbar-lastmod">Created: {{ $.Date.Format "2 Jan 2006" }}</span>
+          {{ end }}
+          {{ with .Params.updated }}
+          <span class="toolbar-separator">·</span>
+          <span class="toolbar-lastmod">Last edited: {{ time.AsTime . | time.Format "2 Jan 2006" }}</span>
           {{ end }}
         </div>
         <div class="toolbar-right">

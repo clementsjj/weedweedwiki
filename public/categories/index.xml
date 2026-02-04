@@ -2,38 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on WeedWeed.Wiki</title>
-    <link>http://localhost:1314/categories/</link>
+    <link>https://weedweed.wiki/categories/</link>
     <description>Recent content in Categories on WeedWeed.Wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://weedweed.wiki/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Terepenes</title>
-      <link>http://localhost:1314/categories/terepenes/</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/categories/terepenes/</guid>
+      <title>Cannabinoids</title>
+      <link>https://weedweed.wiki/categories/cannabinoids/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/cannabinoids/</guid>
       <description></description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1314/categories/about/</link>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/categories/about/</guid>
+      <title>Terpenes</title>
+      <link>https://weedweed.wiki/categories/terpenes/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/terpenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cannabis</title>
+      <link>https://weedweed.wiki/categories/cannabis/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/cannabis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consumption</title>
+      <link>https://weedweed.wiki/categories/consumption/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/consumption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://weedweed.wiki/categories/faq/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/faq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Growing</title>
+      <link>https://weedweed.wiki/categories/growing/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/growing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pests</title>
+      <link>https://weedweed.wiki/categories/pests/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://weedweed.wiki/categories/pests/</guid>
       <description></description>
     </item>
     <item>
       <title>Cannabaceae</title>
-      <link>http://localhost:1314/categories/cannabaceae/</link>
+      <link>https://weedweed.wiki/categories/cannabaceae/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/categories/cannabaceae/</guid>
+      <guid>https://weedweed.wiki/categories/cannabaceae/</guid>
       <description></description>
     </item>
     <item>
       <title>Plants</title>
-      <link>http://localhost:1314/categories/plants/</link>
+      <link>https://weedweed.wiki/categories/plants/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/categories/plants/</guid>
+      <guid>https://weedweed.wiki/categories/plants/</guid>
       <description></description>
     </item>
   </channel>

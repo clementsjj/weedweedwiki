@@ -1,0 +1,6 @@
+<details class="details-box"{{ if .Get "open" }} open{{ end }}>
+  <summary>{{ .Get "summary" | default "Click to expand" }}</summary>
+  <div class="details-content">
+    {{ trim .Inner "\n\r\t " | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</details>

@@ -16,7 +16,7 @@
   <section class="home-articles">
     <h2>Recent Articles</h2>
     <ul class="article-list">
-      {{ range first 10 $articles }}
+      {{ range first 5 $articles }}
       <li class="article-list-item">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ with .Description }}

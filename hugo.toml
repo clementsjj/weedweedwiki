@@ -20,11 +20,16 @@ refLinksNotFoundURL = '/articles/missing/'
 
 [markup.tableOfContents]
   startLevel = 2
-  endLevel = 3
+  endLevel = 4
   ordered = false
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 5
 
 [[menus.main]]
   name = 'Categories'

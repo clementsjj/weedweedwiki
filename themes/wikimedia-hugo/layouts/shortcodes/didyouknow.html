@@ -1,0 +1,10 @@
+<div class="wikibox">
+  <div class="wikibox-header">
+    <h3 class="wikibox-title">Did you know?</h3>
+  </div>
+  <div class="wikibox-content">
+    {{ $facts := .Site.Data.didyouknow }}
+    {{ $random := index $facts (mod (int (now.UnixNano)) (len $facts)) }}
+    <p>{{ $random.fact | markdownify }}</p>
+  </div>
+</div>

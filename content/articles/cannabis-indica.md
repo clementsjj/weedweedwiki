@@ -28,7 +28,7 @@ related:
 
 {{< /infobox >}}
 
-**Cannabis sativa** is an annual herbaceous flowering plant indigenous to Eastern Asia, but now of cosmopolitan distribution due to widespread cultivation. It has been cultivated throughout recorded history, used as a source of industrial fiber, seed oil, food, recreation, religious and spiritual moods, and medicine.
+**Cannabis Indica** is an annual herbaceous flowering plant indigenous to Eastern Asia, but now of cosmopolitan distribution due to widespread cultivation. It has been cultivated throughout recorded history, used as a source of industrial fiber, seed oil, food, recreation, religious and spiritual moods, and medicine.
 
 ## Etymology
 
@@ -47,22 +47,10 @@ The plant has a characteristic appearance with its distinctive fan-shaped leaves
 
 ### Growth Characteristics
 
-Cannabis sativa plants typically grow taller than their {{% link "indica" cannabis-indica %}} indica counterparts, often reaching heights of 2-3 meters or more in optimal conditions. They have:
-
-- Long, thin leaves
-- Longer flowering periods
-- Higher {{% link "THC" THC %}} to {{% link "CBD" %}} ratios (in drug cultivars)
-
+Cannabis sativa plants typically grow shorter and bushier than their [sativa](cannabis-sativa) counterparts.
 ## Uses
 
-### Industrial
 
-Hemp, a variety of Cannabis sativa, is grown for industrial uses including:
-
-- Fiber production
-- Seed oil extraction
-- Building materials
-- Biofuels
 
 ### Medicinal
 
