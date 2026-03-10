@@ -1,0 +1,8 @@
+{{- if .Site.Menus.sidebar -}}
+<nav class="sidebar-nav">
+  <h2 class="sidebar-title">Navigate</h2>
+  {{ range .Site.Menus.sidebar }}
+  <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "sidebar" . }}active{{ end }}">{{ .Name }}</a>
+  {{ end }}
+</nav>
+{{- end -}}

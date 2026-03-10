@@ -1,0 +1,4 @@
+{{- $section := .Get 0 | default "articles" -}}
+{{- with site.GetPage $section -}}
+  {{- len .Pages -}}
+{{- end -}}

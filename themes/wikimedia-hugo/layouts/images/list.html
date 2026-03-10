@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main class="images-main">
+  <header class="images-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="images-grid">
+    {{ $files := readDir "static/images" }}
+    {{ range $files }}
+      {{ if not .IsDir }}
+      <div class="images-card">
+        <a href="/images/{{ .Name }}" target="_blank">
+          <img src="/images/{{ .Name }}" alt="{{ .Name }}" loading="lazy">
+        </a>
+        <div class="images-card-name"><code>/images/{{ .Name }}</code></div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,64 @@
+baseURL = 'https://weedweed.wiki/'
+languageCode = 'en-us'
+title = 'WeedWeed.Wiki'
+theme = 'wikimedia-hugo'
+refLinksErrorLevel = 'WARNING'
+refLinksNotFoundURL = '/articles/missing/'
+
+[params]
+  tagline = 'The plant encyclopedia for everyone'
+  description = 'A wiki-style knowledge base'
+  searchPlaceholder = 'Search weedweed.wiki'
+  subtitle ="The Plant Encyclopedia"
+  githubRepo = 'https://github.com/clementsjj/weedweedwiki'
+  githubBranch = 'main'
+  githubCreateBranch = 'edit'
+  enableGitInfo = false # This is to pull accurate last-modified date from Git. It is experimental; If false, date will come from frontmatter. 
+  giscusRepoId = 'R_kgDOQ3W_ig'           # from giscus.app
+  giscusCategoryId = 'DIC_kwDOQ3W_is4C02Dn'     # from giscus.app
+  giscusCategory = 'Discussions'       # or whatever category you created
+  notFoundImage = 'images/404.jpg'
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4
+  ordered = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 5
+
+[[menus.main]]
+  name = 'Journals'
+  url = '/journals/'
+  weight = 7
+
+[[menus.main]]
+  name = 'Categories'
+  url = '/categories/'
+  weight = 10
+
+# Sidebar menu (appears on left side of articles)
+[[menus.sidebar]]
+  name = 'Main Page'
+  url = '/'
+  weight = 1
+
+[[menus.sidebar]]
+  name = 'Grow Journals'
+  url = '/journals/'
+  weight = 2
+
+[[menus.sidebar]]
+  name = 'Get Started'
+  url = '/articles/get-started-growing'
+  weight = 3
+
+[[menus.sidebar]]
+  name = 'FAQ'
+  url = '/articles/frequently-asked-questions/'
+  weight = 4

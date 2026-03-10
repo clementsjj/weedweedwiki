@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main class="home-main">
+  <header class="home-header">
+    <h1 class="home-title">{{ .Site.Title }}</h1>
+    {{ with .Site.Params.tagline }}
+    <p class="home-tagline">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="home-content">
+    {{ .Content }}
+  </div>
+
+  {{ $articles := where .Site.RegularPages "Section" "articles" }}
+  {{ if $articles }}
+  <section class="home-articles">
+    <h2>Recent Articles</h2>
+    <ul class="article-list">
+      {{ range first 5 (sort $articles "Lastmod" "desc") }}
+      <li class="article-list-item">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Description }}
+        <p class="article-list-description">{{ . }}</p>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

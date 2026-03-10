@@ -1,0 +1,12 @@
+{{- $currentPage := .Page -}}
+{{- $pages := $currentPage.Pages -}}
+{{- if $pages -}}
+<ul class="child-pages">
+  {{- range $pages -}}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- with .Description }} - {{ . }}{{ end -}}
+  </li>
+  {{- end -}}
+</ul>
+{{- end -}}

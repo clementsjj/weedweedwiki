@@ -1,0 +1,12 @@
+name = "wikimedia-hugo"
+license = "MIT"
+licenselink = "https://github.com/yourusername/wikimedia-hugo/blob/main/LICENSE"
+description = "A dark-mode, Wikipedia-inspired Hugo theme with infoboxes and table of contents"
+homepage = "https://github.com/yourusername/wikimedia-hugo"
+tags = ["wiki", "wikipedia", "dark", "documentation", "minimal"]
+features = ["dark mode", "table of contents", "infobox", "responsive"]
+min_version = "0.112.0"
+
+[author]
+  name = "weedweed.wiki"
+  homepage = "https://weedweed.wiki"

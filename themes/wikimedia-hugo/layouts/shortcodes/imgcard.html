@@ -1,0 +1,6 @@
+<figure class="imgcard{{ with .Get "float" }} imgcard-{{ . }}{{ end }}"{{ with .Get "width" }} style="max-width: {{ . }}"{{ end }}>
+  <img src="{{ .Get "src" }}" alt="{{ .Get "caption" | default "Image" }}">
+  {{ with .Get "caption" }}
+  <figcaption class="imgcard-caption">{{ . }}</figcaption>
+  {{ end }}
+</figure>

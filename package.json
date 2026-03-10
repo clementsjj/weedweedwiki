@@ -1,0 +1,11 @@
+{
+  "name": "weedweedwiki",
+  "private": true,
+  "scripts": {
+    "build": "hugo && pagefind --site public",
+    "dev": "hugo server"
+  },
+  "devDependencies": {
+    "pagefind": "^1.3.0"
+  }
+}

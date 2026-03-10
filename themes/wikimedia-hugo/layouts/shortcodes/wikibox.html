@@ -1,0 +1,10 @@
+<div class="wikibox{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ with .Get "title" }}
+  <div class="wikibox-header">
+    <h3 class="wikibox-title">{{ . }}</h3>
+  </div>
+  {{ end }}
+  <div class="wikibox-content">
+    {{ trim .Inner "\n\r\t " | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</div>

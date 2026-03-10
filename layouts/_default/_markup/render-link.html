@@ -1,0 +1,22 @@
+{{- $originalDest := .Destination -}}
+{{- $dest := .Destination -}}
+{{- $text := .Text -}}
+{{- $class := "" -}}
+
+{{- /* Check if it's a relative link (not absolute, not external, not anchor) */ -}}
+{{- if and (not (hasPrefix $dest "/")) (not (hasPrefix $dest "http")) (not (hasPrefix $dest "#")) (not (hasPrefix $dest "mailto:")) -}}
+  {{- $page := .Page.GetPage $dest -}}
+  {{- if $page -}}
+    {{- $dest = $page.RelPermalink -}}
+  {{- else -}}
+    {{- /* Page doesn't exist, construct sibling URL based on current section */ -}}
+    {{- $class = "redlink" -}}
+    {{- with .Page.CurrentSection -}}
+      {{- $dest = printf "%s%s/" .RelPermalink $originalDest -}}
+    {{- else -}}
+      {{- $dest = printf "/%s/" $originalDest -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<a href="{{ $dest | safeURL }}"{{ with $class }} class="{{ . }}"{{ end }}>{{ $text }}</a>

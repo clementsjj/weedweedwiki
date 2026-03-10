@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "header.html" . -}}
+
+  <div class="site-container">
+    {{- block "main" . }}{{- end }}
+  </div>
+
+  {{- partial "footer.html" . -}}
+
+  <script>
+    // Mobile TOC toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const tocToggle = document.querySelector('.toc-toggle');
+      const tocSidebar = document.querySelector('.toc-sidebar');
+
+      if (tocToggle && tocSidebar) {
+        tocToggle.addEventListener('click', function() {
+          tocSidebar.classList.toggle('toc-open');
+          tocToggle.classList.toggle('toc-active');
+        });
+      }
+
+      // Mobile nav toggle
+      const navToggle = document.querySelector('.nav-toggle');
+      const siteNav = document.querySelector('.site-nav');
+
+      if (navToggle && siteNav) {
+        navToggle.addEventListener('click', function() {
+          siteNav.classList.toggle('open');
+          navToggle.setAttribute('aria-expanded',
+            siteNav.classList.contains('open'));
+        });
+      }
+    });
+  </script>
+</body>
+</html>
